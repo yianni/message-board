@@ -1,0 +1,13 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/johngerassimou/dev/Test/message-board/app/controllers/MessageBoardController.scala:43:25: local val imcomingPostWriter in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m      implicit lazy val imcomingPostWriter = Json.writes[IncomingPost][0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/johngerassimou/dev/Test/message-board/app/controllers/MessageBoardController.scala:51:23: local val postWriter in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m    implicit lazy val postWriter = Json.writes[Post][0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/johngerassimou/dev/Test/message-board/app/controllers/MessageBoardController.scala:63:27: local val voteWriter in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m        implicit lazy val voteWriter = Json.writes[Vote][0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/johngerassimou/dev/Test/message-board/app/controllers/MessageBoardController.scala:28:42: parameter value request in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def getPosts = Action.async { implicit request =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m

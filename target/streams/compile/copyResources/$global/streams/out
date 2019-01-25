@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johngerassimou/dev/Test/message-board/conf/logback.xml,/Users/johngerassimou/dev/Test/message-board/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johngerassimou/dev/Test/message-board/conf/secure.conf,/Users/johngerassimou/dev/Test/message-board/target/scala-2.12/classes/secure.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johngerassimou/dev/Test/message-board/conf/generated.keystore,/Users/johngerassimou/dev/Test/message-board/target/scala-2.12/classes/generated.keystore)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johngerassimou/dev/Test/message-board/conf/application.conf,/Users/johngerassimou/dev/Test/message-board/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/johngerassimou/dev/Test/message-board/conf/routes,/Users/johngerassimou/dev/Test/message-board/target/scala-2.12/classes/routes)[0m
