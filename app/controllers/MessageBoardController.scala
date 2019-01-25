@@ -1,6 +1,15 @@
 package controllers
 
+import akka.actor.ActorSystem
+import controllers.Models.Msgs
+import http.Responses.okJsonResult
+import http.Validate.validateJson
 import javax.inject.Inject
+import play.api.libs.json._
+import play.api.mvc._
+import service._
+
+import scala.concurrent.{ExecutionContext, Future}
 
 //@Singleton
 class MessageBoardController @Inject()(
@@ -23,7 +32,7 @@ class MessageBoardController @Inject()(
       text <- service.postService.textById
       count <- service.voteService.countsById
     } yield {
-      text.map { case (k: String, v: String) => Msgs(k, v, count.getOrElse(k, 1L)) }
+      text.map { case (k: String, v: String) => Msgs(k, v, count.getOrElse(k, 0L)) }
     }
 
     merged.map(msgses => okJsonResult(msgses.toList.sortBy(-_.count)))
