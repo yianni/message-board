@@ -1,73 +1,52 @@
-# Play REST API
-
-[![Build Status](https://travis-ci.org/playframework/play-scala-rest-api-example.svg?branch=2.6.x)](https://travis-ci.org/playframework/play-scala-rest-api-example)
-
-This is the example project for [Making a REST API in Play](http://developer.lightbend.com/guides/play-rest-api/index.html).
-
-## Appendix
-
-### Running
-
-You need to download and install sbt for this application to run.
-
-Once you have sbt installed, the following at the command prompt will start up Play in development mode:
-
+### Launch service
 ```bash
 sbt run
 ```
 
-Play will start up on the HTTP port at <http://localhost:9000/>.   You don't need to deploy or reload anything -- changing any source code while the server is running will automatically recompile and hot-reload the application on the next HTTP request. 
-
-### Usage
-
-If you call the same URL from the command line, you’ll see JSON. Using httpie, we can execute the command:
-
-```bash
-http --verbose http://localhost:9000/v1/posts
+### Add Post
+`POST localhost:9000/posts`
+```json
+{
+	"text": "post message here"
+}
 ```
 
-and get back:
-
-```routes
-GET /v1/posts HTTP/1.1
+### Delete post
+`DELETE localhost:9000/posts`
+```json
+{"id": "post uuid here"}
 ```
 
-Likewise, you can also send a POST directly as JSON:
-
-```bash
-http --verbose POST http://localhost:9000/v1/posts title="hello" body="world"
+### Add vote
+Dir flags (up/down): `dir=-1` or `dir=1`
+`POST localhost:9000/vote`
+```json
+{
+	"postId": "b1a9c76d-8b55-4bc3-b17e-76097994eb1a",
+	"dir": 1
+}
 ```
 
-and get:
+### Get posts
+`GET localhost:9000/posts`
 
-```routes
-POST /v1/posts HTTP/1.1
+#### Response
+```json
+[
+     {
+       "id": "b3e95337-a715-4b6f-b150-2b76a798c895",
+       "text": "some post",
+       "count": 3
+     },
+     {
+       "id": "b08731f2-43b0-4878-91e9-9f341eaa5cf6",
+       "text": "another post",
+       "count": 1
+     },
+     {
+       "id": "a7356722-273a-48df-af62-7f5482824024",
+       "text": "another another post",
+       "count": -1
+     }
+   ]
 ```
-
-### Load Testing
-
-The best way to see what Play can do is to run a load test.  We've included Gatling in this test project for integrated load testing.
-
-Start Play in production mode, by [staging the application](https://www.playframework.com/documentation/2.5.x/Deploying) and running the play script:s
-
-```bash
-sbt stage
-cd target/universal/stage
-bin/play-rest-api-example -Dplay.crypto.secret=testing
-```
-
-Then you'll start the Gatling load test up (it's already integrated into the project):
-
-```bash
-sbt gatling:test
-```
-
-For best results, start the gatling load test up on another machine so you do not have contending resources.  You can edit the [Gatling simulation](http://gatling.io/docs/2.2.2/general/simulation_structure.html#simulation-structure), and change the numbers as appropriate.
-
-Once the test completes, you'll see an HTML file containing the load test chart:
-
-```bash
- ./rest-api/target/gatling/gatlingspec-1472579540405/index.html
-```
-
-That will contain your load test results.

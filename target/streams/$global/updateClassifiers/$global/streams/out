@@ -10074,22 +10074,118 @@
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.11!jackson-core.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.codingwell#scala-guice_2.12;4.2.1!scala-guice_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.activation#javax.activation-api;1.2.0!javax.activation-api.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/johngerassimou/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/johngerassimou/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/johngerassimou/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.0.15!akka-http-core_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.jsonwebtoken#jjwt;0.7.0!jjwt.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.j2objc#j2objc-annotations;1.1!j2objc-annotations.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/johngerassimou/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/johngerassimou/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.jsonwebtoken#jjwt;0.7.0!jjwt.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/johngerassimou/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/johngerassimou/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/johngerassimou/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/johngerassimou/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/johngerassimou/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/johngerassimou/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/johngerassimou/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (25ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/johngerassimou/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (27ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/johngerassimou/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (28ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/johngerassimou/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (25ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/johngerassimou/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.3.6!ssl-config-core_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/johngerassimou/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.inject#guice;4.2.0!guice.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.logstash.logback#logstash-logback-encoder;4.11!logstash-logback-encoder.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.25!jul-to-slf4j.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-netty-utils;2.6.21!play-netty-utils.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.logstash.logback#logstash-logback-encoder;4.11!logstash-logback-encoder.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.spray#spray-json_2.12;1.3.2!spray-json_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-netty-utils;2.6.21!play-netty-utils.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-guice_2.12;2.6.21!play-guice_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (32ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/johngerassimou/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (30ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/johngerassimou/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.6!commons-lang3.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.netaporter#scala-uri_2.12;0.4.16!scala-uri_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.codehaus.mojo#animal-sniffer-annotations;1.14!animal-sniffer-annotations.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.codehaus.mojo#animal-sniffer-annotations;1.14!animal-sniffer-annotations.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.errorprone#error_prone_annotations;2.1.3!error_prone_annotations.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#build-link;2.6.21!build-link.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-json_2.12;2.6.12!play-json_2.12.jar(src)[0m
@@ -10097,13 +10193,13 @@
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.guava#guava;23.6.1-jre!guava.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.11!jackson-datatype-jsr310.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.19!akka-stream_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-codec#commons-codec;1.11!commons-codec.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.19!akka-stream_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-akka-http-server_2.12;2.6.21!play-akka-http-server_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-logback_2.12;2.6.21!play-logback_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.0.15!akka-parsing_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-logback_2.12;2.6.21!play-logback_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.xml.bind#jaxb-api;2.3.1!jaxb-api.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play_2.12;2.6.21!play_2.12.jar(src)[0m
@@ -10114,10 +10210,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.joda#joda-convert;1.9.2!joda-convert.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.6.21!play-exceptions.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-streams_2.12;2.6.21!play-streams_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.11!jackson-annotations.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#config;1.3.3!config.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-server_2.12;2.6.21!play-server_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.11!jackson-annotations.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-server_2.12;2.6.21!play-server_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.11!jackson-datatype-jdk8.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)[0m
@@ -10128,24 +10224,24 @@
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.7!scala-parser-combinators_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.6.12!play-functional_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.checkerframework#checker-compat-qual;2.0.0!checker-compat-qual.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.19!akka-protobuf_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-support;3.5.3!selenium-support.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-api;9.4.5.v20170502!websocket-api.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.fluentlenium#fluentlenium-core;3.3.0!fluentlenium-core.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] xerces#xercesImpl;2.11.0!xercesImpl.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-exec;1.3!commons-exec.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] xerces#xercesImpl;2.11.0!xercesImpl.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit;2.27!htmlunit.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-client;9.4.5.v20170502!websocket-client.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-client;9.4.5.v20170502!websocket-client.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.sourceforge.cssparser#cssparser;0.9.23!cssparser.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.seleniumhq.selenium#htmlunit-driver;2.27!htmlunit-driver.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-firefox-driver;3.5.3!selenium-firefox-driver.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.5.v20170502!jetty-util.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.sourceforge.cssparser#cssparser;0.9.23!cssparser.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.3!httpclient.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.5.v20170502!jetty-util.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.5.v20170502!jetty-io.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-test_2.12;2.6.21!play-test_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-client;9.4.5.v20170502!jetty-client.jar(src)[0m
@@ -10155,19 +10251,19 @@
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] cglib#cglib-nodep;3.2.4!cglib-nodep.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.atteo.classindex#classindex;3.4!classindex.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.w3c.css#sac;1.3!sac.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-core-js;2.27!htmlunit-core-js.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.sourceforge.htmlunit#neko-htmlunit;2.27!neko-htmlunit.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-core-js;2.27!htmlunit-core-js.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] junit#junit;4.12!junit.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] xalan#serializer;2.7.2!serializer.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] xalan#xalan;2.7.2!xalan.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.java.dev.jna#jna-platform;4.1.0!jna-platform.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.code.gson#gson;2.8.0!gson.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-api;3.5.3!selenium-api.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.code.gson#gson;2.8.0!gson.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.novocode#junit-interface;0.11!junit-interface.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.java.dev.jna#jna-platform;4.1.0!jna-platform.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.5.v20170502!jetty-http.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.novocode#junit-interface;0.11!junit-interface.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.6!httpcore.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.3!httpmime.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.seleniumhq.selenium#selenium-remote-driver;3.5.3!selenium-remote-driver.jar(src)[0m
@@ -10176,36 +10272,36 @@
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.7!parboiled-core.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-docs_2.12;2.6.21!play-docs_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-doc_2.12;1.8.2!play-doc_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.ow2.asm#asm;5.0.3!asm.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-doc_2.12;1.8.2!play-doc_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.pegdown#pegdown;1.6.0!pegdown.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.ow2.asm#asm-tree;5.0.3!asm-tree.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] commons-io#commons-io;2.6!commons-io.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.ow2.asm#asm-util;5.0.3!asm-util.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.7!parboiled-java.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.play#play-omnidoc_2.12;2.6.21!play-omnidoc_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 2460ms :: artifacts dl 61ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 compile produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-compile.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 runtime produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-runtime.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 test produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-test.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 provided produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-provided.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 optional produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-optional.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 web-assets produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-web-assets.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 web-assets-test produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-web-assets-test.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 web-plugin produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-web-plugin.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 universal produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-universal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 universal-docs produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-universal-docs.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 universal-src produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-universal-src.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 windows produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-windows.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 docker produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-docker.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 linux produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-linux.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 rpm produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-rpm.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 debian produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-debian.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 compile-internal produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-compile-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 runtime-internal produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-runtime-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 test-internal produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-test-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 plugin produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-plugin.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 pom produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-pom.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 scala-tool produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 docs produced in /Users/johngerassimou/dev/Test/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-docs.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (2460ms resolve - 61ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 3442ms :: artifacts dl 76ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 compile produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 runtime produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 test produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 provided produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 optional produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 web-assets produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-web-assets.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 web-assets-test produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-web-assets-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 web-plugin produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-web-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 universal produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-universal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 universal-docs produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-universal-docs.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 universal-src produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-universal-src.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 windows produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-windows.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 docker produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-docker.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 linux produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-linux.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 rpm produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-rpm.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 debian produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-debian.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 compile-internal produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 runtime-internal produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 test-internal produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 plugin produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 pom produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 scala-tool produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for com.job.message#message-board$sources;0.1 docs produced in /Users/johngerassimou/dev/message-board/target/scala-2.12/resolution-cache/reports/com.job.message-message-board$sources-docs.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (3442ms resolve - 76ms download)[0m
