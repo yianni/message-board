@@ -17,16 +17,6 @@ sbt run
 {"id": "post uuid here"}
 ```
 
-### Add vote
-Dir flags (up/down): `dir=-1` or `dir=1`
-`POST localhost:9000/vote`
-```json
-{
-	"postId": "b1a9c76d-8b55-4bc3-b17e-76097994eb1a",
-	"dir": 1
-}
-```
-
 ### Get posts
 `GET localhost:9000/posts`
 
@@ -49,4 +39,17 @@ Dir flags (up/down): `dir=-1` or `dir=1`
        "count": -1
      }
    ]
+```
+
+### Add vote
+`POST localhost:9000/vote`
+
+Dir flags (up/down)
+ `dir=1` or `dir=-1`
+ 
+```json
+{
+	"postId": "b1a9c76d-8b55-4bc3-b17e-76097994eb1a",
+	"dir": 1
+}
 ```
