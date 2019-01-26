@@ -6,9 +6,7 @@ sbt run
 ### Add Post
 `POST localhost:9000/posts`
 ```json
-{
-	"text": "post message here"
-}
+{"text": "post message here"}
 ```
 
 ### Delete post
@@ -38,7 +36,7 @@ sbt run
        "text": "another another post",
        "count": -1
      }
-   ]
+]
 ```
 
 ### Add vote

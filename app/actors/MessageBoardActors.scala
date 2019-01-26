@@ -5,7 +5,6 @@ import java.util.concurrent.ConcurrentHashMap
 import akka.actor.Actor
 
 import scala.collection.JavaConverters._
-import scala.collection.mutable
 
 // Write ops
 case class Increment(id: String)
@@ -27,7 +26,7 @@ case object PostActor
 
 class VoteActor extends Actor {
   //  msgId -> count
-  private var msgIdCountLookup: mutable.Map[String, Long] = new ConcurrentHashMap[String, Long]().asScala.withDefaultValue(0L)
+  private var msgIdCountLookup = new ConcurrentHashMap[String, Long]().asScala.withDefaultValue(0L)
 
   def receive: PartialFunction[Any, Unit] = {
     // write ops
@@ -42,7 +41,7 @@ class VoteActor extends Actor {
 
 class PostActor extends Actor {
   // msgId -> text
-  private var msgIdTextLookup = scala.collection.mutable.Map[String, String]()
+  private var msgIdTextLookup = new ConcurrentHashMap[String, String]().asScala
 
   def receive: PartialFunction[Any, Unit] = {
     // write ops

@@ -1,7 +1,8 @@
 package controllers
 
 object Models {
-
-  case class Msgs(id:String, text:String, count: Long)
-
+  trait HttpResult
+  case class VoteResult(postId: String, count: Long) extends HttpResult
+  case class PostResult(postId:String, text:String, count: Long) extends HttpResult
+  case class IdResult(postId: String) extends HttpResult
 }

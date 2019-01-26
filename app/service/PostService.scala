@@ -6,19 +6,17 @@ import akka.pattern.ask
 import akka.util.Timeout
 
 import scala.collection.mutable
+import scala.concurrent.Future
 import scala.concurrent.duration._
-import scala.concurrent.{ExecutionContext, Future}
 
 case class IncomingPost(id: String = java.util.UUID.randomUUID.toString, text: String, time: Long = java.time.Instant.now.toEpochMilli)
 
 case class Post(id: String)
 
-case class PostCount(id: String, count: Long)
-
 trait PostServiceImpl {
   val postService: PostService
 
-  protected class PostService(implicit ec: ExecutionContext, system: ActorSystem) {
+  protected class PostService(implicit system: ActorSystem) {
     private val postActor = system.actorOf(Props[PostActor])
     implicit private val timeout: Timeout = 5.seconds
 

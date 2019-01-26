@@ -22,36 +22,23 @@ trait VoteServiceImpl {
 
     private val voteActor = system.actorOf(Props[VoteActor])
 
-    def prints() = {
-      voteActor ! Print()
-    }
+    def prints(): Unit = { voteActor ! Print() }
 
-    def votes: Future[Seq[(String, Long)]] = {
-      (voteActor ? All()).mapTo[Seq[(String, Long)]]
-    }
+    def countsById: Future[mutable.Map[String, Long]] = { (voteActor ? Maps()).mapTo[mutable.Map[String, Long]] }
 
-    def countsById: Future[mutable.Map[String, Long]] = {
-      (voteActor ? Maps()).mapTo[mutable.Map[String, Long]]
-    }
-
-    def vote(vote: Vote): Future[String] = {
+    def vote(vote: Vote): Future[Option[Long]] = {
       if (validVote(vote)) {
-        addVote(vote).map {
-          case None => "Bad"
-          case Some(value) => value.toString
-        }
+        addVote(vote)
       } else {
-        Future("bad")
+        Future(Option.empty[Long])
       }
     }
 
-    def addVote(vote: Vote): Future[Option[Long]] = vote.dir match {
+    private def addVote(vote: Vote): Future[Option[Long]] = vote.dir match {
       case UP => (voteActor ? Increment(vote.postId)).mapTo[Option[Long]]
       case DOWN => (voteActor ? Decrement(vote.postId)).mapTo[Option[Long]]
     }
 
-    private def validVote(vote: Vote): Boolean = {
-      vote.dir == UP || vote.dir == DOWN
-    }
+    private def validVote(vote: Vote): Boolean = vote.dir == UP || vote.dir == DOWN
   }
 }

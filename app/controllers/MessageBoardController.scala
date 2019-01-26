@@ -1,7 +1,7 @@
 package controllers
 
 import akka.actor.ActorSystem
-import controllers.Models.Msgs
+import controllers.Models.{IdResult, PostResult, VoteResult}
 import http.Responses.okJsonResult
 import http.Validate.validateJson
 import javax.inject.Inject
@@ -20,56 +20,59 @@ class MessageBoardController @Inject()(
 ) extends AbstractController(cc) {
 
   def prints: Action[AnyContent] = Action.async {
+    // debug
     service.voteService.prints()
-
-    Future(Ok(""))
+    Future(Ok)
   }
 
   def getPosts: Action[AnyContent] = Action.async { implicit request =>
-    implicit lazy val postWriter = Json.writes[Msgs]
+    implicit lazy val postWriter = Json.writes[PostResult]
 
     val merged = for {
       text <- service.postService.textById
       count <- service.voteService.countsById
     } yield {
-      text.map { case (k: String, v: String) => Msgs(k, v, count.getOrElse(k, 0L)) }
+      text.map { case (k, v) => PostResult(k, v, count.getOrElse(k, 0L)) }
     }
 
-    merged.map(msgses => okJsonResult(msgses.toList.sortBy(-_.count)))
+    merged.map(msgs => okJsonResult(msgs.toList.sortBy(-_.count)))
   }
 
   def addPost: Action[JsValue] = Action.async(parse.json) { implicit request =>
     implicit lazy val imcomingPostReader = Json.using[Json.WithDefaultValues].reads[IncomingPost]
-    implicit lazy val imcomingPostWriter = Json.writes[IncomingPost]
+    implicit lazy val imcomingPostWriter = Json.writes[IdResult]
 
     val post = validateJson[IncomingPost](request.body)
-    service.postService.add(post).map(okJsonResult(_))
+
+    service.postService.add(post).map(res => if (res.isDefined) okJsonResult(IdResult(post.id)) else InternalServerError)
   }
 
   def removePost: Action[JsValue] = Action.async(parse.json) { implicit request =>
     implicit lazy val postReader = Json.reads[Post]
-    implicit lazy val postWriter = Json.writes[Post]
+    implicit lazy val postWriter = Json.writes[IdResult]
 
     val post = validateJson[Post](request.body)
-    service.postService.delete(post).map {
-      case None => BadRequest
-      case Some(r) => okJsonResult(r)
+
+    for {
+      text <- service.postService.get(post.id)
+      textFromDelete <- if (text.isDefined) service.postService.delete(post) else Future(Some(""))
+    } yield {
+      if (textFromDelete.isEmpty) okJsonResult(IdResult(post.id)) else BadRequest
     }
   }
 
-  def vote = Action.async(parse.json) {
-    implicit request =>
-      implicit lazy val voteReader = Json.using[Json.WithDefaultValues].reads[Vote]
-      implicit lazy val voteWriter = Json.writes[Vote]
+  def vote: Action[JsValue] = Action.async(parse.json) { implicit request =>
+    implicit lazy val voteReader = Json.using[Json.WithDefaultValues].reads[Vote]
+    implicit lazy val voteWriter = Json.writes[VoteResult]
 
-      val vote = validateJson[Vote](request.body)
+    val vote = validateJson[Vote](request.body)
 
-      for {
-        opt <- service.postService.get(vote.postId)
-        str <- if (opt.isDefined) service.voteService.vote(vote) else Future("bad")
-      } yield {
-        if (str == "bad") BadRequest("") else okJsonResult(str)
-      }
+    for {
+      text <- service.postService.get(vote.postId)
+      count <- if (text.isDefined) service.voteService.vote(vote) else Future(Option.empty[Long])
+    } yield {
+      if (count.isEmpty || text.isEmpty) BadRequest else okJsonResult(VoteResult(vote.postId, count.get))
+    }
   }
 }
 
