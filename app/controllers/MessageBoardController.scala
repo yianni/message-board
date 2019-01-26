@@ -19,6 +19,7 @@ class MessageBoardController @Inject()(
   implicit val ec: ExecutionContext
 ) extends AbstractController(cc) {
 
+
   def prints: Action[AnyContent] = Action.async {
     // debug
     service.voteService.prints()

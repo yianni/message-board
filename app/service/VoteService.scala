@@ -18,9 +18,21 @@ trait VoteServiceImpl {
     private val DOWN: Int = -1
     private val UP: Int = 1
 
-    implicit private val timeout: Timeout = 5.seconds
+    private val AKKA_TIMEOUT: Timeout = 5.seconds
+
+    implicit private val timeout: Timeout = AKKA_TIMEOUT
 
     private val voteActor = system.actorOf(Props[VoteActor])
+
+    private val REBASE_TASK_INTERVAL = 15.seconds
+
+    // Rebase Task
+    system.scheduler.schedule(
+      initialDelay = 0.microseconds,
+      interval = REBASE_TASK_INTERVAL,
+      receiver = voteActor,
+      message = Rebase()
+    )
 
     def prints(): Unit = { voteActor ! Print() }
 

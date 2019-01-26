@@ -32,7 +32,7 @@ class VoteActor extends Actor {
     // write ops
     case Increment(id) => sender() ! (msgIdCountLookup += (id -> (msgIdCountLookup(id) + 1))).get(id)
     case Decrement(id) => sender() ! (msgIdCountLookup += (id -> (msgIdCountLookup(id) - 1))).get(id)
-    case _: Rebase => msgIdCountLookup = msgIdCountLookup.map { case (k, v) => k -> (v - 1) }
+    case _: Rebase => if (msgIdCountLookup.nonEmpty) msgIdCountLookup = msgIdCountLookup.map { case (k, v) => k -> (v - 1) }
     // read ops
     case _: Maps => sender() ! msgIdCountLookup
     case _: Print => println(msgIdCountLookup)
