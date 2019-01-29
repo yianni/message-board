@@ -11,7 +11,6 @@ object Validate {
     }
   }
 
-  //
   // exceptions
   class BadRequestException(message: String) extends Exception(message) {
     def this(message: String, cause: Throwable) {
@@ -27,6 +26,4 @@ object Validate {
       this(null: String)
     }
   }
-
-
 }

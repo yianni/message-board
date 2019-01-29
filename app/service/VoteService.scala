@@ -15,42 +15,41 @@ trait VoteServiceImpl {
   val voteService: VoteService
 
   protected class VoteService(implicit ec: ExecutionContext, system: ActorSystem) {
-    private val DOWN: Int = -1
-    private val UP: Int = 1
 
-    private val AKKA_TIMEOUT: Timeout = 5.seconds
+    private object Direction {
+      val DOWN: Int = -1
+      val UP: Int = 1
+    }
 
-    implicit private val timeout: Timeout = AKKA_TIMEOUT
+    private object Settings {
+      val REBASE_TASK_INTERVAL = 15.seconds
+      val AKKA_TIMEOUT = 5.seconds
+    }
 
+    // Actor Ref
     private val voteActor = system.actorOf(Props[VoteActor])
+    implicit val timeout: Timeout = Settings.AKKA_TIMEOUT
 
-    private val REBASE_TASK_INTERVAL = 15.seconds
-
-    // Rebase Task
+    // read ops
     system.scheduler.schedule(
       initialDelay = 0.microseconds,
-      interval = REBASE_TASK_INTERVAL,
+      interval = Settings.REBASE_TASK_INTERVAL,
       receiver = voteActor,
       message = Rebase()
     )
 
-    def prints(): Unit = { voteActor ! Print() }
+    def prints(): Unit = voteActor ! Print()
 
-    def countsById: Future[mutable.Map[String, Long]] = { (voteActor ? Maps()).mapTo[mutable.Map[String, Long]] }
+    def countsById: Future[mutable.Map[String, Long]] = (voteActor ? Maps()).mapTo[mutable.Map[String, Long]]
 
-    def vote(vote: Vote): Future[Option[Long]] = {
-      if (validVote(vote)) {
-        addVote(vote)
-      } else {
-        Future(Option.empty[Long])
-      }
-    }
+    // write ops
+    def vote(vote: Vote): Future[Option[Long]] = if (validVote(vote)) addVote(vote) else Future(Option.empty[Long])
 
     private def addVote(vote: Vote): Future[Option[Long]] = vote.dir match {
-      case UP => (voteActor ? Increment(vote.postId)).mapTo[Option[Long]]
-      case DOWN => (voteActor ? Decrement(vote.postId)).mapTo[Option[Long]]
+      case Direction.UP => (voteActor ? Increment(vote.postId)).mapTo[Option[Long]]
+      case Direction.DOWN => (voteActor ? Decrement(vote.postId)).mapTo[Option[Long]]
     }
 
-    private def validVote(vote: Vote): Boolean = vote.dir == UP || vote.dir == DOWN
+    private def validVote(vote: Vote): Boolean = vote.dir == Direction.UP || vote.dir == Direction.DOWN
   }
 }
