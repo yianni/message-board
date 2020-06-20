@@ -1,3 +1,5 @@
+Simple message board service using the Actor System and Play Http. 
+
 ### Launch service
 ```bash
 sbt run
