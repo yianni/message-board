@@ -1,0 +1,11 @@
+POST      /vote            controllers.MessageBoardController.vote
+GET       /posts           controllers.MessageBoardController.getPosts
+POST      /posts           controllers.MessageBoardController.addPost
+DELETE    /posts           controllers.MessageBoardController.removePost
+
+
+GET       /test             controllers.MessageBoardController.prints
+
+
+
+
